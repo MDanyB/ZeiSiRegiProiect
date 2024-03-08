@@ -1,0 +1,70 @@
+body {
+    background-image: url(Images/BackgroundImage.png);
+    font-family: Fredoka One;
+}
+
+#Photos-Frame {
+    justify-content: center;
+    text-align: center;
+}
+
+
+#BackBtn {
+    display: absolute;
+    float: left;
+    color: white;
+    margin-top: 30svh;
+    border-radius: 20px;
+    margin-left: 50px;
+
+    width: 80px;
+
+    background-color: rgb(8, 214, 241);
+
+    border-color: rgb(11, 180, 202);
+    border-width: 5px;
+    border-style:solid;
+    box-shadow: 0px 0px 15px rgb(0, 217, 255);
+
+    transition: font-size 0.2s, transform 0.3s, color 0.3s, background-color 0.3s , border-color 0.3s, box-shadow 0.3s;
+    font-size: 60px;
+    font-family: Fredoka One;
+}
+
+#ForwardBtn {
+    margin-top: 30svh;
+    display: absolute;
+    float: right;
+    color: white;
+    margin-right: 50px;
+    border-radius: 20px;
+
+    width: 80px;
+    
+    background-color: rgb(8, 214, 241);
+
+    border-color: rgb(11, 180, 202);
+    border-width: 5px;
+    border-style:solid;
+    box-shadow: 0px 0px 15px rgb(0, 217, 255);
+
+    transition: font-size 0.2s, transform 0.3s, color 0.3s, background-color 0.3s , border-color 0.3s, box-shadow 0.3s;
+
+    font-size: 60px;
+    font-family: Fredoka One;
+    
+}
+
+#ForwardBtn:hover, #BackBtn:hover {
+    transform: translateY(-5px);
+    font-size: 70px;
+}
+
+#ForwardBtn:active, #BackBtn:active {
+    transform: translateY(0px);
+    font-size: 60px;
+    color: rgb(255, 0, 0);
+    background-color: white;
+    border-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 15px rgb(255, 0, 0);
+}
